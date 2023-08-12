@@ -1,0 +1,21 @@
+{
+  "name": "time-tracker-server",
+  "version": "1.0.0",
+  "description": "Rest api for Time tracker",
+  "main": "server.ts",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "start-dev": "NODE_ENV=dev nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
